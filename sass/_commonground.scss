@@ -1,0 +1,40 @@
+.inspireS1 {
+  background: url(/img/sm.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.adaptiveCommonGround {
+  background-color: #0090D4;
+  transition: 500ms ease-in-out;
+  .commongroundHead {
+    color: #ffffff;
+    transition: 500ms ease-in-out;
+  }
+  .commongroundSubhead {
+    color: #efefef;
+    transition: 500ms ease-in-out;
+  }
+  .switch input[type=checkbox]:checked + label {
+    background: #5ad8ff;
+  }
+  .light {
+    color:#5ad8ff;
+  }
+  .home {
+    color: white;
+  }
+  #fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background-color: #5ad8ff;
+  }
+}
+.commongroundHead {
+  color: #0090D4;
+  transition: 500ms ease-in-out;
+}
+.commongroundSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}

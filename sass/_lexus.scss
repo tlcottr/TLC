@@ -1,0 +1,35 @@
+.adaptiveLexus {
+  background-color: #3a3a3a;
+  transition: 500ms ease-in-out;
+  .lexusHead {
+    color: #ffffff;
+    transition: 500ms ease-in-out;
+  }
+  .lexusSubhead {
+    color: #888888;
+    transition: 500ms ease-in-out;
+  }
+  .home {
+    color: white;
+    transition: 500ms ease-in-out;
+  }
+  .light {
+    color: #888888;
+    transition: 500ms ease-in-out;
+  }
+  .switch input[type=checkbox]:checked + label {
+    background: #000000;
+  }
+  #fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background-color: #888888;
+  }
+}
+.lexusHead {
+  color: #888888;
+  transition: 500ms ease-in-out;
+}
+.lexusSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}

@@ -1,0 +1,45 @@
+.inspireS1 {
+  background: url(/img/sm.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.adaptiveFactory {
+  background-color: #001021;
+  transition: 500ms ease-in-out;
+  .factoryHead {
+    color: #50ffdb;
+    transition: 500ms ease-in-out;
+  }
+  .factorySubhead {
+    color: #efefef;
+    transition: 500ms ease-in-out;
+  }
+  .switch input[type=checkbox]:checked + label {
+    background: #FFB511;
+  }
+  .light {
+    color:#394e65;
+  }
+  .home {
+    color: white;
+  }
+  #fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background-color: #394e65;
+  }
+}
+.factoryHead {
+  color: #50ffdb;
+  transition: 500ms ease-in-out;
+}
+.factorySubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+.threeFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

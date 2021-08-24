@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Factory360 | TLC</title>
+
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="stylesheets/web.css">
+
+    <!-- Fonts -->
+
+    <!-- Fontawesome Icon fotns -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/af692b5953.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Js -->
+    <script src="js/modernizr.js"></script>
+    <script>
+        var nav = false;
+        function openTitle(){
+            document.getElementById('title').classList.toggle("show");
+            document.getElementById('body').classList.add("adaptiveFactory");
+            nav = true;
+        }
+        function closeTitle(){
+            document.getElementById('title').classList.toggle("show");
+            document.getElementById('body').classList.remove("adaptiveFactory");
+            nav = false;
+        }
+        function toggleTitle(){
+          nav ? closeTitle() : openTitle();
+        }
+        </script>
+    </head>
+    <body id="body">
+      <div class="header stuck" id="header">
+        <div class="headerTop">
+          <div class="col h1 bold fadeIn"><a href="/" class="home">Taylor Cottrell </a><span class="light fade show" id="title">has been to Dan Bilzerian's house.</span></div>
+          <div class="col h1 fadeIn switch right"><input type="checkbox" id="toggleAll" onclick="toggleTitle()"/><label for="toggleAll"></label></div>
+    </div></div>
+<div id ="fullPage" class="fullPage fadeIn">
+    <div class= "section s1">
+      <div class="caseText megaType">
+        <span class="factoryHead">A new look for the NYC experiential agency.</span><br>
+        <span class="light factorySubhead">
+Rebranding across every touchpoint: website, social channels, promotional pieces, email, print collateral, merchandise, pitch decks, and internal documents.</div>
+      <div class="caseInfo">
+        <span class="h4 light gray">Factory360 / Hugo Burton, Trisha Tan, Carlie Buske, Taylor Cottrell</span>
+      </div>
+  </div>
+  <div class= "section s2">
+    <img src="../img/F_brand.gif" class="workImageMed"></img>
+</div>
+<div class= "section s2">
+  <img src="../img/F_color.gif" class="workImageMed"></img>
+</div>
+  <div class= "section s2">
+    <img src="../img/F_docs.png" class="workImage"></img>
+</div>
+<div class= "section s2">
+  <img src="../img/F_social-mock.gif" class="workImageEvenSmaller"></img>
+</div>
+<div class= "section s3">
+  <h1>First Sections</h1>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+<script>
+new fullpage('#fullPage', {
+  autoScrolling: true,
+  scrollingSpeed: 2000,
+  dragAndMove: true,
+  fadingEffect: true,
+  navigation: true,
+  lazyLoading: true,
+  loopBottom: true,
+  scrollHorizontally: true
+});
+</script>
+</body>
+
+<header>
+</header><!-- End Header -->
+
+
+ <!-- start footer -->
+<footer>
+</footer> <!-- end footer -->
+
+
+<!-- jQuery-->
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,729 @@
+@import url('href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+/* line 1, ../sass/_generic.scss */
+.h1 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1.5em;
+}
+
+/* line 5, ../sass/_generic.scss */
+.h3 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1.25em;
+}
+
+/* line 9, ../sass/_generic.scss */
+.h4 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  line-height: 1.3em;
+}
+
+/* line 14, ../sass/_generic.scss */
+.megaType {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 3em;
+  letter-spacing: -1px;
+}
+
+/* line 19, ../sass/_generic.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 22, ../sass/_generic.scss */
+.slow {
+  transition: 500ms ease-in-out;
+}
+
+/* line 25, ../sass/_generic.scss */
+.light {
+  font-weight: 300;
+  transition: 500ms ease-in-out;
+}
+
+/* line 29, ../sass/_generic.scss */
+.thin {
+  font-weight: 300;
+}
+
+/* line 32, ../sass/_generic.scss */
+.regular {
+  font-weight: 400;
+}
+
+/* line 35, ../sass/_generic.scss */
+.trans {
+  transition: 500ms ease-in-out;
+  transition-delay: 500ms ease-in-out;
+}
+
+/* line 39, ../sass/_generic.scss */
+.fadeIn {
+  animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 46, ../sass/_generic.scss */
+.third {
+  width: 30%;
+}
+
+/* line 49, ../sass/_generic.scss */
+.half {
+  width: 50%;
+}
+
+/* line 52, ../sass/_generic.scss */
+.quarter {
+  width: 25%;
+}
+
+/* line 55, ../sass/_generic.scss */
+ul.inline {
+  display: inline-block;
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margins */
+}
+
+/* line 61, ../sass/_generic.scss */
+.rot {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  transition: 300ms ease-in-out;
+}
+
+/* line 67, ../sass/_generic.scss */
+.flexgrow {
+  flex-grow: 1;
+}
+
+/* line 70, ../sass/_generic.scss */
+.hide {
+  opacity: 0;
+  transition: 250ms ease-in-out;
+}
+
+/* line 74, ../sass/_generic.scss */
+.show {
+  opacity: 1;
+  transition: 1s ease-in-out;
+}
+
+/* line 78, ../sass/_generic.scss */
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 82, ../sass/_generic.scss */
+.link:hover {
+  cursor: pointer;
+}
+
+/* line 85, ../sass/_generic.scss */
+.lightLink:hover {
+  transform: translate(5px, 0px);
+  transition: 500ms ease-in-out;
+}
+
+/* line 89, ../sass/_generic.scss */
+hr {
+  border-color: #efefef;
+}
+
+/* line 92, ../sass/_generic.scss */
+.section {
+  display: flex;
+  align-items: center;
+}
+
+/* line 96, ../sass/_generic.scss */
+#fullPage {
+  position: absolute;
+  z-index: 1;
+  top: -7px;
+  left: 0;
+}
+
+/* line 102, ../sass/_generic.scss */
+.fullPage {
+  position: absolute;
+  z-index: 1;
+  top: -7px;
+  left: 0;
+}
+
+/* line 108, ../sass/_generic.scss */
+.home {
+  text-decoration: none;
+  color: black;
+  transition: 500ms ease-in-out;
+}
+
+/* line 113, ../sass/_generic.scss */
+.caseInfo {
+  padding-top: 2em;
+}
+
+/* line 116, ../sass/_generic.scss */
+.gray {
+  color: #c1bebe;
+}
+
+/* line 120, ../sass/_generic.scss */
+.fp-slidesContainer {
+  width: 100% !important;
+  transform: none !important;
+}
+
+/* line 125, ../sass/_generic.scss */
+.fp-slide {
+  width: 100% !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 0;
+  transition: all .5s ease-in-out;
+}
+
+/* line 136, ../sass/_generic.scss */
+.fp-slide.active {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+}
+
+/* line 142, ../sass/_generic.scss */
+.fp-section {
+  width: 100% !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 0;
+  transition: all .5s ease-in-out;
+}
+
+/* line 153, ../sass/_generic.scss */
+.fp-section.active {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+}
+
+/* line 158, ../sass/_generic.scss */
+.stuck {
+  position: absolute;
+  top: 0;
+}
+
+/* line 162, ../sass/_generic.scss */
+.workImage {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+/* line 166, ../sass/_generic.scss */
+video {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+/* line 173, ../sass/_generic.scss */
+.workImageMed {
+  width: 75vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+/* line 179, ../sass/_generic.scss */
+.workImageSmaller {
+  width: 30vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+/* line 185, ../sass/_generic.scss */
+.workImageEvenSmaller {
+  width: 25vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+/* line 191, ../sass/_generic.scss */
+.s1 {
+  padding-left: 3%;
+  padding-right: 10%;
+  margin: .5em;
+}
+
+/* line 196, ../sass/_generic.scss */
+.smallIcon {
+  font-size: .85em;
+}
+
+/* line 199, ../sass/_generic.scss */
+.show {
+  opacity: 0;
+  visibility: hidden;
+  transition: 300ms ease-in-out;
+}
+
+/* line 204, ../sass/_generic.scss */
+.fade {
+  transition: 500ms ease-in-out;
+}
+
+/* line 207, ../sass/_generic.scss */
+.threepad {
+  padding-right: 3% !important;
+}
+
+/* line 210, ../sass/_generic.scss */
+.green {
+  color: green;
+  transition: 500ms ease-in-out;
+  transition-delay: 500ms;
+}
+
+/* line 215, ../sass/_generic.scss */
+.shadow {
+  border: .1px solid #888888;
+}
+
+/* line 218, ../sass/_generic.scss */
+strike {
+  color: #efefef;
+}
+
+/* line 1, ../sass/_body.scss */
+html {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 6, ../sass/_body.scss */
+body {
+  padding: 0;
+  margin: 0;
+  transition: 500ms ease-in-out;
+}
+
+/* line 11, ../sass/_body.scss */
+.header {
+  transition: 500ms ease-in-out;
+  transition-delay: height 500ms ease-in-out;
+  z-index: 100;
+  width: 100%;
+}
+
+/* line 17, ../sass/_body.scss */
+.headerTop {
+  padding-left: 3%;
+  padding-right: 1%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 26, ../sass/_body.scss */
+.headerBottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+
+/* line 31, ../sass/_body.scss */
+.expand {
+  height: 30vh;
+}
+
+/* line 34, ../sass/_body.scss */
+.lightLink {
+  color: #c1bebe;
+  text-decoration: none;
+  transition: 500ms ease-in-out;
+}
+
+/* line 39, ../sass/_body.scss */
+.lightLink:hover {
+  color: #000000;
+  transition: 500ms ease-in-out;
+  cursor: pointer;
+}
+
+/* line 44, ../sass/_body.scss */
+.lightLink:link {
+  color: #000000;
+}
+
+/* line 47, ../sass/_body.scss */
+.content {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+/* line 51, ../sass/_body.scss */
+.workTitle {
+  margin-bottom: 1.5%;
+  margin-top: 1.5%;
+  text-decoration: none;
+  color: #efefef;
+  cursor: pointer;
+}
+
+/* line 58, ../sass/_body.scss */
+.workTitle:hover {
+  color: black;
+}
+
+/* line 61, ../sass/_body.scss */
+.hide {
+  display: none;
+}
+
+/* line 65, ../sass/_body.scss */
+.inspireGray {
+  background-color: #efefef;
+}
+
+/* line 1, ../sass/_inspire.scss */
+.inspireS1 {
+  background: url(/img/sm.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 8, ../sass/_inspire.scss */
+.adaptiveInspire {
+  background-color: #B31066;
+  transition: 500ms ease-in-out;
+}
+/* line 11, ../sass/_inspire.scss */
+.adaptiveInspire .inspireHead {
+  color: #ffffff;
+  transition: 500ms ease-in-out;
+}
+/* line 15, ../sass/_inspire.scss */
+.adaptiveInspire .inspireSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+/* line 19, ../sass/_inspire.scss */
+.adaptiveInspire .switch input[type=checkbox]:checked + label {
+  background: #e64f91;
+}
+/* line 22, ../sass/_inspire.scss */
+.adaptiveInspire .light {
+  color: #e64f91;
+}
+/* line 25, ../sass/_inspire.scss */
+.adaptiveInspire .home {
+  color: white;
+}
+/* line 28, ../sass/_inspire.scss */
+.adaptiveInspire #fp-nav ul li a span,
+.adaptiveInspire .fp-slidesNav ul li a span {
+  background-color: #e64f91;
+}
+
+/* line 33, ../sass/_inspire.scss */
+.inspireHead {
+  color: #B31066;
+  transition: 500ms ease-in-out;
+}
+
+/* line 37, ../sass/_inspire.scss */
+.inspireSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+
+/* line 1, ../sass/_lexus.scss */
+.adaptiveLexus {
+  background-color: #3a3a3a;
+  transition: 500ms ease-in-out;
+}
+/* line 4, ../sass/_lexus.scss */
+.adaptiveLexus .lexusHead {
+  color: #ffffff;
+  transition: 500ms ease-in-out;
+}
+/* line 8, ../sass/_lexus.scss */
+.adaptiveLexus .lexusSubhead {
+  color: #888888;
+  transition: 500ms ease-in-out;
+}
+/* line 12, ../sass/_lexus.scss */
+.adaptiveLexus .home {
+  color: white;
+  transition: 500ms ease-in-out;
+}
+/* line 16, ../sass/_lexus.scss */
+.adaptiveLexus .light {
+  color: #888888;
+  transition: 500ms ease-in-out;
+}
+/* line 20, ../sass/_lexus.scss */
+.adaptiveLexus .switch input[type=checkbox]:checked + label {
+  background: #000000;
+}
+/* line 23, ../sass/_lexus.scss */
+.adaptiveLexus #fp-nav ul li a span,
+.adaptiveLexus .fp-slidesNav ul li a span {
+  background-color: #888888;
+}
+
+/* line 28, ../sass/_lexus.scss */
+.lexusHead {
+  color: #888888;
+  transition: 500ms ease-in-out;
+}
+
+/* line 32, ../sass/_lexus.scss */
+.lexusSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+
+/* line 1, ../sass/_toggle.scss */
+.switch {
+  display: inline-flex;
+  margin: 0 10px;
+}
+
+/* line 5, ../sass/_toggle.scss */
+.switch input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+/* line 10, ../sass/_toggle.scss */
+.switch input[type=checkbox]:checked + label {
+  background: green;
+}
+
+/* line 13, ../sass/_toggle.scss */
+.switch input[type=checkbox]:checked + label::after {
+  left: calc(100% - 4px);
+  transform: translateX(-100%);
+}
+
+/* line 17, ../sass/_toggle.scss */
+.switch label {
+  cursor: pointer;
+  width: 48px;
+  height: 24px;
+  background: grey;
+  display: block;
+  border-radius: 24px;
+  position: relative;
+}
+
+/* line 26, ../sass/_toggle.scss */
+.switch label::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 16px;
+  transition: 0.3s;
+}
+
+/* line 1, ../sass/_applepay.scss */
+.inspireS1 {
+  background: url(/img/sm.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 8, ../sass/_applepay.scss */
+.adaptiveApple {
+  background-color: #000000;
+  transition: 500ms ease-in-out;
+}
+/* line 11, ../sass/_applepay.scss */
+.adaptiveApple .appleHead {
+  color: #ffffff;
+  transition: 500ms ease-in-out;
+}
+/* line 15, ../sass/_applepay.scss */
+.adaptiveApple .appleSubhead {
+  color: #efefef;
+  transition: 500ms ease-in-out;
+}
+/* line 19, ../sass/_applepay.scss */
+.adaptiveApple .switch input[type=checkbox]:checked + label {
+  background: #06c;
+}
+/* line 22, ../sass/_applepay.scss */
+.adaptiveApple .light {
+  color: #86868b;
+}
+/* line 25, ../sass/_applepay.scss */
+.adaptiveApple .home {
+  color: white;
+}
+/* line 28, ../sass/_applepay.scss */
+.adaptiveApple #fp-nav ul li a span,
+.adaptiveApple .fp-slidesNav ul li a span {
+  background-color: #86868b;
+}
+
+/* line 33, ../sass/_applepay.scss */
+.appleHead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+
+/* line 37, ../sass/_applepay.scss */
+.appleSubhead {
+  color: #efefef;
+  transition: 500ms ease-in-out;
+}
+
+/* line 1, ../sass/_commonground.scss */
+.inspireS1 {
+  background: url(/img/sm.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 8, ../sass/_commonground.scss */
+.adaptiveCommonGround {
+  background-color: #0090D4;
+  transition: 500ms ease-in-out;
+}
+/* line 11, ../sass/_commonground.scss */
+.adaptiveCommonGround .commongroundHead {
+  color: #ffffff;
+  transition: 500ms ease-in-out;
+}
+/* line 15, ../sass/_commonground.scss */
+.adaptiveCommonGround .commongroundSubhead {
+  color: #efefef;
+  transition: 500ms ease-in-out;
+}
+/* line 19, ../sass/_commonground.scss */
+.adaptiveCommonGround .switch input[type=checkbox]:checked + label {
+  background: #5ad8ff;
+}
+/* line 22, ../sass/_commonground.scss */
+.adaptiveCommonGround .light {
+  color: #5ad8ff;
+}
+/* line 25, ../sass/_commonground.scss */
+.adaptiveCommonGround .home {
+  color: white;
+}
+/* line 28, ../sass/_commonground.scss */
+.adaptiveCommonGround #fp-nav ul li a span,
+.adaptiveCommonGround .fp-slidesNav ul li a span {
+  background-color: #5ad8ff;
+}
+
+/* line 33, ../sass/_commonground.scss */
+.commongroundHead {
+  color: #0090D4;
+  transition: 500ms ease-in-out;
+}
+
+/* line 37, ../sass/_commonground.scss */
+.commongroundSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+
+/* line 1, ../sass/_factory360.scss */
+.inspireS1 {
+  background: url(/img/sm.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 8, ../sass/_factory360.scss */
+.adaptiveFactory {
+  background-color: #001021;
+  transition: 500ms ease-in-out;
+}
+/* line 11, ../sass/_factory360.scss */
+.adaptiveFactory .factoryHead {
+  color: #50ffdb;
+  transition: 500ms ease-in-out;
+}
+/* line 15, ../sass/_factory360.scss */
+.adaptiveFactory .factorySubhead {
+  color: #efefef;
+  transition: 500ms ease-in-out;
+}
+/* line 19, ../sass/_factory360.scss */
+.adaptiveFactory .switch input[type=checkbox]:checked + label {
+  background: #FFB511;
+}
+/* line 22, ../sass/_factory360.scss */
+.adaptiveFactory .light {
+  color: #394e65;
+}
+/* line 25, ../sass/_factory360.scss */
+.adaptiveFactory .home {
+  color: white;
+}
+/* line 28, ../sass/_factory360.scss */
+.adaptiveFactory #fp-nav ul li a span,
+.adaptiveFactory .fp-slidesNav ul li a span {
+  background-color: #394e65;
+}
+
+/* line 33, ../sass/_factory360.scss */
+.factoryHead {
+  color: #50ffdb;
+  transition: 500ms ease-in-out;
+}
+
+/* line 37, ../sass/_factory360.scss */
+.factorySubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+
+/* line 41, ../sass/_factory360.scss */
+.threeFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
