@@ -41,6 +41,9 @@ body {
   transition: 500ms ease-in-out;
   cursor: pointer;
 }
+.lightLink:link {
+  color: #c1bebe;
+}
 .content {
   padding-left:3%;
   padding-right:3%;
