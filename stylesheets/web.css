@@ -750,27 +750,33 @@ body {
   /* line 6, ../sass/_breakpoints.scss */
   .headerTop {
     display: block;
+    padding-bottom: 7%;
   }
 
-  /* line 9, ../sass/_breakpoints.scss */
+  /* line 10, ../sass/_breakpoints.scss */
   .headerBottom {
     display: block;
   }
 
-  /* line 12, ../sass/_breakpoints.scss */
+  /* line 13, ../sass/_breakpoints.scss */
   .resume {
     position: fixed;
-    bottom: 10px;
+    bottom: 0px;
+    width: 100%;
+    padding: 3%;
+    left: 0;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  /* line 20, ../sass/_breakpoints.scss */
+  /* line 26, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 2em;
   }
 
-  /* line 23, ../sass/_breakpoints.scss */
+  /* line 29, ../sass/_breakpoints.scss */
   .resume {
     position: fixed;
     bottom: 3%;
@@ -778,21 +784,21 @@ body {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  /* line 31, ../sass/_breakpoints.scss */
+  /* line 37, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 2em;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  /* line 38, ../sass/_breakpoints.scss */
+  /* line 44, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 3em;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /* line 45, ../sass/_breakpoints.scss */
+  /* line 51, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 3em;
   }

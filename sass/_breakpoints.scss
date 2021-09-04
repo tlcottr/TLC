@@ -5,13 +5,19 @@
   }
   .headerTop {
     display: block;
+    padding-bottom: 7%;
   }
   .headerBottom {
     display: block;
   }
   .resume {
     position: fixed;
-    bottom: 10px;
+    bottom: 0px;
+    width: 100%;
+    padding:3%;
+    left: 0;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
 }
 
