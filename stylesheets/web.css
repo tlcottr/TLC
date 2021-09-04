@@ -396,9 +396,10 @@ body {
 .content {
   padding-left: 3%;
   padding-right: 3%;
+  margin-bottom: 100px;
 }
 
-/* line 51, ../sass/_body.scss */
+/* line 52, ../sass/_body.scss */
 .workTitle {
   margin-bottom: 1.5%;
   margin-top: 1.5%;
@@ -407,17 +408,17 @@ body {
   cursor: pointer;
 }
 
-/* line 58, ../sass/_body.scss */
+/* line 59, ../sass/_body.scss */
 .workTitle:hover {
   color: black;
 }
 
-/* line 61, ../sass/_body.scss */
+/* line 62, ../sass/_body.scss */
 .hide {
   display: none;
 }
 
-/* line 65, ../sass/_body.scss */
+/* line 66, ../sass/_body.scss */
 .inspireGray {
   background-color: #efefef;
 }
