@@ -287,44 +287,43 @@ video {
 .s1 {
   padding-left: 3%;
   padding-right: 10%;
-  margin: .5em;
 }
 
-/* line 204, ../sass/_generic.scss */
+/* line 203, ../sass/_generic.scss */
 .smallIcon {
   font-size: .85em;
 }
 
-/* line 207, ../sass/_generic.scss */
+/* line 206, ../sass/_generic.scss */
 .show {
   opacity: 0;
-  visibility: hidden;
+  display: none;
   transition: 300ms ease-in-out;
 }
 
-/* line 212, ../sass/_generic.scss */
+/* line 211, ../sass/_generic.scss */
 .fade {
   transition: 500ms ease-in-out;
 }
 
-/* line 215, ../sass/_generic.scss */
+/* line 214, ../sass/_generic.scss */
 .threepad {
   padding-right: 2% !important;
 }
 
-/* line 218, ../sass/_generic.scss */
+/* line 217, ../sass/_generic.scss */
 .green {
   color: green;
   transition: 500ms ease-in-out;
   transition-delay: 500ms;
 }
 
-/* line 223, ../sass/_generic.scss */
+/* line 222, ../sass/_generic.scss */
 .shadow {
   border: .1px solid #888888;
 }
 
-/* line 226, ../sass/_generic.scss */
+/* line 225, ../sass/_generic.scss */
 strike {
   color: #efefef;
 }
@@ -750,16 +749,11 @@ body {
 
   /* line 6, ../sass/_breakpoints.scss */
   .headerTop {
-    display: block;
+    flex-direction: column;
     padding-bottom: 7%;
   }
 
-  /* line 10, ../sass/_breakpoints.scss */
-  .headerBottom {
-    display: block;
-  }
-
-  /* line 13, ../sass/_breakpoints.scss */
+  /* line 12, ../sass/_breakpoints.scss */
   .resume {
     position: fixed;
     bottom: 0px;
@@ -770,15 +764,22 @@ body {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     z-index: 100;
   }
+
+  /* line 22, ../sass/_breakpoints.scss */
+  .switch {
+    margin: 0;
+    display: flex;
+    padding-top: .5em;
+  }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  /* line 27, ../sass/_breakpoints.scss */
+  /* line 31, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 2em;
   }
 
-  /* line 30, ../sass/_breakpoints.scss */
+  /* line 34, ../sass/_breakpoints.scss */
   .resume {
     position: fixed;
     bottom: 3%;
@@ -786,21 +787,21 @@ body {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  /* line 38, ../sass/_breakpoints.scss */
+  /* line 42, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 2em;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  /* line 45, ../sass/_breakpoints.scss */
+  /* line 49, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 3em;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /* line 52, ../sass/_breakpoints.scss */
+  /* line 56, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 3em;
   }

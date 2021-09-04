@@ -4,11 +4,10 @@
     font-size: 2em;
   }
   .headerTop {
-    display: block;
+    flex-direction: column;
     padding-bottom: 7%;
   }
   .headerBottom {
-    display: block;
   }
   .resume {
     position: fixed;
@@ -19,6 +18,11 @@
     background-color: white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     z-index: 100;
+  }
+  .switch {
+    margin: 0;
+    display: flex;
+    padding-top:.5em;
   }
 }
 
