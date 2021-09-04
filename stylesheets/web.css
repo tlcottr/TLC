@@ -767,16 +767,17 @@ body {
     left: 0;
     background-color: white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 100;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  /* line 26, ../sass/_breakpoints.scss */
+  /* line 27, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 2em;
   }
 
-  /* line 29, ../sass/_breakpoints.scss */
+  /* line 30, ../sass/_breakpoints.scss */
   .resume {
     position: fixed;
     bottom: 3%;
@@ -784,21 +785,21 @@ body {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  /* line 37, ../sass/_breakpoints.scss */
+  /* line 38, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 2em;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  /* line 44, ../sass/_breakpoints.scss */
+  /* line 45, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 3em;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /* line 51, ../sass/_breakpoints.scss */
+  /* line 52, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 3em;
   }
