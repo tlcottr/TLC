@@ -240,7 +240,7 @@ hr {
 
 /* line 166, ../sass/_generic.scss */
 .stuck {
-  position: absolute;
+  position: fixed;
   top: 0;
 }
 
