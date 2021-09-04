@@ -22,7 +22,8 @@
   .switch {
     margin: 0;
     display: flex;
-    padding-top:.5em;
+    flex-direction: column;
+    padding-top:.2em;
   }
 }
 
