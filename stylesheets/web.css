@@ -324,12 +324,7 @@ video {
   border: .1px solid #888888;
 }
 
-/* line 226, ../sass/_generic.scss */
-strike {
-  color: #efefef;
-}
-
-/* line 229, ../sass/_generic.scss */
+/* line 228, ../sass/_generic.scss */
 .border {
   border-style: solid;
   border-width: 1px;
