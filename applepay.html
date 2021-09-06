@@ -25,7 +25,7 @@
             width: 100%;
             height: 100%;
             display: table;
-            background-color: #efefef;
+            background-color: #EEEEEE;
         }
 
         #dialogWrapCell {
@@ -35,26 +35,20 @@
         }
 
         #mainDialog {
-          max-width: 400px;
-          /* border: solid #AAAAAA 1px; */
-          border-radius: 10px;
-          margin-left: auto;
-          margin-right: auto;
-          /* background-color: #FFFFFF; */
-          overflow: hidden;
-          text-align: left;
-          display: flex;
-          justify-content: center;
+            max-width: 400px;
+            margin: 5px;
+            border: solid #AAAAAA 1px;
+            border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #FFFFFF;
+            overflow: hidden;
+            text-align: left;
         }
         #passArea {
-          padding: 20px 30px;
-          display: flex;
-          align-content: center;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+            padding: 20px 30px;
+            background-color: white;
         }
-
         #passArea > * {
             margin: 5px auto;
         }
@@ -116,7 +110,9 @@
     <div id="dialogWrap">
         <div id="dialogWrapCell">
             <div id="mainDialog">
+                <div id="dialogText">This page is password protected.</div>
                 <div id="passArea">
+                    <p id="passwordPrompt">Password</p>
                     <input id="pass" type="password" name="pass" autofocus>
                     <div>
                         <span id="messageWrapper">
