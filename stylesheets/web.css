@@ -130,7 +130,7 @@ ul.inline {
 /* line 82, ../sass/_generic.scss */
 .show {
   opacity: 1;
-  transition: 1s ease-in-out;
+  transition: 500ms ease-in-out;
 }
 
 /* line 86, ../sass/_generic.scss */
@@ -327,6 +327,13 @@ video {
 /* line 226, ../sass/_generic.scss */
 strike {
   color: #efefef;
+}
+
+/* line 229, ../sass/_generic.scss */
+.border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
 }
 
 /* line 1, ../sass/_body.scss */
@@ -741,6 +748,51 @@ body {
   justify-content: space-around;
 }
 
+/* line 1, ../sass/_guitarsenal.scss */
+.adaptiveGuitarsenal {
+  background-color: #fce1a5;
+  transition: 500ms ease-in-out;
+}
+/* line 4, ../sass/_guitarsenal.scss */
+.adaptiveGuitarsenal .guitarsenalHead {
+  color: #ffffff;
+  transition: 500ms ease-in-out;
+}
+/* line 8, ../sass/_guitarsenal.scss */
+.adaptiveGuitarsenal .guitarsenalSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+/* line 12, ../sass/_guitarsenal.scss */
+.adaptiveGuitarsenal .switch input[type=checkbox]:checked + label {
+  background: #a78742;
+}
+/* line 15, ../sass/_guitarsenal.scss */
+.adaptiveGuitarsenal .light {
+  color: #a78742;
+}
+/* line 18, ../sass/_guitarsenal.scss */
+.adaptiveGuitarsenal .home {
+  color: white;
+}
+/* line 21, ../sass/_guitarsenal.scss */
+.adaptiveGuitarsenal #fp-nav ul li a span,
+.adaptiveGuitarsenal .fp-slidesNav ul li a span {
+  background-color: #a78742;
+}
+
+/* line 26, ../sass/_guitarsenal.scss */
+.guitarsenalHead {
+  color: #fce1a5;
+  transition: 500ms ease-in-out;
+}
+
+/* line 30, ../sass/_guitarsenal.scss */
+.guitarsenalSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* line 3, ../sass/_breakpoints.scss */
@@ -773,38 +825,88 @@ body {
     flex-direction: column;
     padding-top: .2em;
   }
+
+  /* line 28, ../sass/_breakpoints.scss */
+  .fullImage {
+    display: none;
+  }
+
+  /* line 31, ../sass/_breakpoints.scss */
+  .mobileImage {
+    display: block;
+  }
+
+  /* line 34, ../sass/_breakpoints.scss */
+  .workImageSmaller {
+    width: 70vw;
+  }
+
+  /* line 37, ../sass/_breakpoints.scss */
+  .workImageEvenSmaller {
+    width: 70vw;
+  }
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  /* line 32, ../sass/_breakpoints.scss */
+/* Small devices (portrait tablets and large phones, 601px and up) */
+@media only screen and (min-width: 601px) {
+  /* line 44, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 2em;
   }
 
-  /* line 35, ../sass/_breakpoints.scss */
+  /* line 47, ../sass/_breakpoints.scss */
   .resume {
     position: fixed;
     bottom: 3%;
   }
+
+  /* line 51, ../sass/_breakpoints.scss */
+  .fullImage {
+    display: block;
+  }
+
+  /* line 54, ../sass/_breakpoints.scss */
+  .mobileImage {
+    display: none;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  /* line 43, ../sass/_breakpoints.scss */
+  /* line 61, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 2em;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  /* line 50, ../sass/_breakpoints.scss */
+  /* line 68, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 3em;
+  }
+
+  /* line 71, ../sass/_breakpoints.scss */
+  .fullImage {
+    display: block;
+  }
+
+  /* line 74, ../sass/_breakpoints.scss */
+  .mobileImage {
+    display: none;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /* line 57, ../sass/_breakpoints.scss */
+  /* line 81, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 3em;
+  }
+
+  /* line 84, ../sass/_breakpoints.scss */
+  .fullImage {
+    display: block;
+  }
+
+  /* line 87, ../sass/_breakpoints.scss */
+  .mobileImage {
+    display: none;
   }
 }

@@ -81,7 +81,7 @@ ul.inline {
 }
 .show {
   opacity: 1;
-  transition: 1s ease-in-out;
+  transition: 500ms ease-in-out;
 }
 .link {
   text-decoration: none;
@@ -225,4 +225,9 @@ video {
 }
 strike {
   color:#efefef;
+}
+.border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
 }
