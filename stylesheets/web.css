@@ -331,6 +331,21 @@ video {
   border-color: white;
 }
 
+/* line 233, ../sass/_generic.scss */
+#title {
+  transition: 500ms ease-in-out;
+}
+
+/* line 236, ../sass/_generic.scss */
+.onePad {
+  padding-right: 1%;
+}
+
+/* line 239, ../sass/_generic.scss */
+.resume {
+  background-color: white;
+}
+
 /* line 1, ../sass/_body.scss */
 html {
   background-color: #ffffff;
@@ -784,6 +799,51 @@ body {
 
 /* line 30, ../sass/_guitarsenal.scss */
 .guitarsenalSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+
+/* line 1, ../sass/_&Coffee.scss */
+.adaptiveCoffee {
+  background-color: #4c3910;
+  transition: 500ms ease-in-out;
+}
+/* line 4, ../sass/_&Coffee.scss */
+.adaptiveCoffee .coffeeHead {
+  color: #ffffff;
+  transition: 500ms ease-in-out;
+}
+/* line 8, ../sass/_&Coffee.scss */
+.adaptiveCoffee .coffeeSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+/* line 12, ../sass/_&Coffee.scss */
+.adaptiveCoffee .switch input[type=checkbox]:checked + label {
+  background: #a78742;
+}
+/* line 15, ../sass/_&Coffee.scss */
+.adaptiveCoffee .light {
+  color: #a78742;
+}
+/* line 18, ../sass/_&Coffee.scss */
+.adaptiveCoffee .home {
+  color: white;
+}
+/* line 21, ../sass/_&Coffee.scss */
+.adaptiveCoffee #fp-nav ul li a span,
+.adaptiveCoffee .fp-slidesNav ul li a span {
+  background-color: #a78742;
+}
+
+/* line 26, ../sass/_&Coffee.scss */
+.coffeeHead {
+  color: #8a6517;
+  transition: 500ms ease-in-out;
+}
+
+/* line 30, ../sass/_&Coffee.scss */
+.coffeeSubhead {
   color: #000000;
   transition: 500ms ease-in-out;
 }
