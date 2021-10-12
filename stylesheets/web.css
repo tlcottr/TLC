@@ -848,6 +848,51 @@ body {
   transition: 500ms ease-in-out;
 }
 
+/* line 1, ../sass/_santamargherita.scss */
+.adaptiveSanta {
+  background-color: #99042F;
+  transition: 500ms ease-in-out;
+}
+/* line 4, ../sass/_santamargherita.scss */
+.adaptiveSanta .santaHead {
+  color: #ffffff;
+  transition: 500ms ease-in-out;
+}
+/* line 8, ../sass/_santamargherita.scss */
+.adaptiveSanta .santaSubhead {
+  color: #EEDBB3;
+  transition: 500ms ease-in-out;
+}
+/* line 12, ../sass/_santamargherita.scss */
+.adaptiveSanta .switch input[type=checkbox]:checked + label {
+  background: #EEDBB3;
+}
+/* line 15, ../sass/_santamargherita.scss */
+.adaptiveSanta .light {
+  color: #EEDBB3;
+}
+/* line 18, ../sass/_santamargherita.scss */
+.adaptiveSanta .home {
+  color: white;
+}
+/* line 21, ../sass/_santamargherita.scss */
+.adaptiveSanta #fp-nav ul li a span,
+.adaptiveSanta .fp-slidesNav ul li a span {
+  background-color: #EEDBB3;
+}
+
+/* line 26, ../sass/_santamargherita.scss */
+.santaHead {
+  color: #99042F;
+  transition: 500ms ease-in-out;
+}
+
+/* line 30, ../sass/_santamargherita.scss */
+.santaSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* line 3, ../sass/_breakpoints.scss */
