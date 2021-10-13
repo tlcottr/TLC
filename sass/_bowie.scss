@@ -1,0 +1,34 @@
+.adaptiveBowie {
+    background-color: #F5140D;
+    transition: 500ms ease-in-out;
+    .bowieHead {
+      color: #ffffff;
+      transition: 500ms ease-in-out;
+    }
+    .bowieSubhead {
+      color: #ad0700;
+      transition: 500ms ease-in-out;
+    }
+    .switch input[type=checkbox]:checked + label {
+      background: #ad0700;
+    }
+    .light {
+      color:#ad0700;
+    }
+    .home {
+      color: white;
+    }
+    #fp-nav ul li a span,
+  .fp-slidesNav ul li a span {
+      background-color: #ad0700;
+    }
+  }
+  .bowieHead {
+    color: #F5140D;
+    transition: 500ms ease-in-out;
+  }
+  .bowieSubhead {
+    color: #000000;
+    transition: 500ms ease-in-out;
+  }
+  

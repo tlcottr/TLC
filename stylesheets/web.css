@@ -938,6 +938,51 @@ body {
   transition: 500ms ease-in-out;
 }
 
+/* line 1, ../sass/_bowie.scss */
+.adaptiveBowie {
+  background-color: #F5140D;
+  transition: 500ms ease-in-out;
+}
+/* line 4, ../sass/_bowie.scss */
+.adaptiveBowie .bowieHead {
+  color: #ffffff;
+  transition: 500ms ease-in-out;
+}
+/* line 8, ../sass/_bowie.scss */
+.adaptiveBowie .bowieSubhead {
+  color: #ad0700;
+  transition: 500ms ease-in-out;
+}
+/* line 12, ../sass/_bowie.scss */
+.adaptiveBowie .switch input[type=checkbox]:checked + label {
+  background: #ad0700;
+}
+/* line 15, ../sass/_bowie.scss */
+.adaptiveBowie .light {
+  color: #ad0700;
+}
+/* line 18, ../sass/_bowie.scss */
+.adaptiveBowie .home {
+  color: white;
+}
+/* line 21, ../sass/_bowie.scss */
+.adaptiveBowie #fp-nav ul li a span,
+.adaptiveBowie .fp-slidesNav ul li a span {
+  background-color: #ad0700;
+}
+
+/* line 26, ../sass/_bowie.scss */
+.bowieHead {
+  color: #F5140D;
+  transition: 500ms ease-in-out;
+}
+
+/* line 30, ../sass/_bowie.scss */
+.bowieSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* line 3, ../sass/_breakpoints.scss */
