@@ -893,6 +893,51 @@ body {
   transition: 500ms ease-in-out;
 }
 
+/* line 1, ../sass/_billiam.scss */
+.adaptiveBilliam {
+  background-color: #000000;
+  transition: 500ms ease-in-out;
+}
+/* line 4, ../sass/_billiam.scss */
+.adaptiveBilliam .billiamHead {
+  color: #ffffff;
+  transition: 500ms ease-in-out;
+}
+/* line 8, ../sass/_billiam.scss */
+.adaptiveBilliam .billiamSubhead {
+  color: #efefef;
+  transition: 500ms ease-in-out;
+}
+/* line 12, ../sass/_billiam.scss */
+.adaptiveBilliam .switch input[type=checkbox]:checked + label {
+  background: red;
+}
+/* line 15, ../sass/_billiam.scss */
+.adaptiveBilliam .light {
+  color: #86868b;
+}
+/* line 18, ../sass/_billiam.scss */
+.adaptiveBilliam .home {
+  color: white;
+}
+/* line 21, ../sass/_billiam.scss */
+.adaptiveBilliam #fp-nav ul li a span,
+.adaptiveBilliam .fp-slidesNav ul li a span {
+  background-color: #86868b;
+}
+
+/* line 26, ../sass/_billiam.scss */
+.billiamHead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+
+/* line 30, ../sass/_billiam.scss */
+.billiamSubhead {
+  color: #c1bebe;
+  transition: 500ms ease-in-out;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* line 3, ../sass/_breakpoints.scss */

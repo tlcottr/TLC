@@ -1,0 +1,33 @@
+.adaptiveBilliam {
+  background-color: #000000;
+  transition: 500ms ease-in-out;
+  .billiamHead {
+    color: #ffffff;
+    transition: 500ms ease-in-out;
+  }
+  .billiamSubhead {
+    color: #efefef;
+    transition: 500ms ease-in-out;
+  }
+  .switch input[type=checkbox]:checked + label {
+    background: red;
+  }
+  .light {
+    color:#86868b;
+  }
+  .home {
+    color: white;
+  }
+  #fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background-color: #86868b;
+  }
+}
+.billiamHead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+.billiamSubhead {
+  color: #c1bebe;
+  transition: 500ms ease-in-out;
+}
