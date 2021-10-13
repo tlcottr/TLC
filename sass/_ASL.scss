@@ -1,0 +1,34 @@
+.adaptiveASL {
+    background-color: #958db4;
+    transition: 500ms ease-in-out;
+    .aslHead {
+      color: #ffffff;
+      transition: 500ms ease-in-out;
+    }
+    .aslSubhead {
+      color: #e1d9fd;
+      transition: 500ms ease-in-out;
+    }
+    .switch input[type=checkbox]:checked + label {
+      background: #e1d9fd;
+    }
+    .light {
+      color:#e1d9fd;
+    }
+    .home {
+      color: white;
+    }
+    #fp-nav ul li a span,
+  .fp-slidesNav ul li a span {
+      background-color: #e1d9fd;
+    }
+  }
+  .aslHead {
+    color: #958db4;
+    transition: 500ms ease-in-out;
+  }
+  .aslSubhead {
+    color: #000000;
+    transition: 500ms ease-in-out;
+  }
+  

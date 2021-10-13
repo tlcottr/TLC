@@ -983,6 +983,51 @@ body {
   transition: 500ms ease-in-out;
 }
 
+/* line 1, ../sass/_ASL.scss */
+.adaptiveASL {
+  background-color: #958db4;
+  transition: 500ms ease-in-out;
+}
+/* line 4, ../sass/_ASL.scss */
+.adaptiveASL .aslHead {
+  color: #ffffff;
+  transition: 500ms ease-in-out;
+}
+/* line 8, ../sass/_ASL.scss */
+.adaptiveASL .aslSubhead {
+  color: #e1d9fd;
+  transition: 500ms ease-in-out;
+}
+/* line 12, ../sass/_ASL.scss */
+.adaptiveASL .switch input[type=checkbox]:checked + label {
+  background: #e1d9fd;
+}
+/* line 15, ../sass/_ASL.scss */
+.adaptiveASL .light {
+  color: #e1d9fd;
+}
+/* line 18, ../sass/_ASL.scss */
+.adaptiveASL .home {
+  color: white;
+}
+/* line 21, ../sass/_ASL.scss */
+.adaptiveASL #fp-nav ul li a span,
+.adaptiveASL .fp-slidesNav ul li a span {
+  background-color: #e1d9fd;
+}
+
+/* line 26, ../sass/_ASL.scss */
+.aslHead {
+  color: #958db4;
+  transition: 500ms ease-in-out;
+}
+
+/* line 30, ../sass/_ASL.scss */
+.aslSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* line 3, ../sass/_breakpoints.scss */
