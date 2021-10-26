@@ -346,6 +346,21 @@ video {
   background-color: white;
 }
 
+/* line 242, ../sass/_generic.scss */
+.bubble {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: .5em;
+}
+
 /* line 1, ../sass/_body.scss */
 html {
   background-color: #ffffff;
