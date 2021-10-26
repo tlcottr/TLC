@@ -19,6 +19,12 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     z-index: 100;
   }
+  .about {
+    right: 0;
+    position: fixed;
+    bottom: 3%;
+    z-index: 100;
+  }
   .switch {
     margin: 0;
     display: flex;
@@ -53,6 +59,11 @@
   }
   .mobileImage {
     display: none;
+  }
+  .about {
+    right: 0;
+    position: fixed;
+    bottom: 3%;
   }
 }
 

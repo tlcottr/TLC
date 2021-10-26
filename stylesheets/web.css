@@ -639,7 +639,7 @@ body {
 
 /* line 37, ../sass/_applepay.scss */
 .appleSubhead {
-  color: #efefef;
+  color: #000000;
   transition: 500ms ease-in-out;
 }
 
@@ -1054,6 +1054,14 @@ body {
   }
 
   /* line 22, ../sass/_breakpoints.scss */
+  .about {
+    right: 0;
+    position: fixed;
+    bottom: 3%;
+    z-index: 100;
+  }
+
+  /* line 28, ../sass/_breakpoints.scss */
   .switch {
     margin: 0;
     display: flex;
@@ -1061,86 +1069,93 @@ body {
     padding-top: .2em;
   }
 
-  /* line 28, ../sass/_breakpoints.scss */
+  /* line 34, ../sass/_breakpoints.scss */
   .fullImage {
     display: none;
   }
 
-  /* line 31, ../sass/_breakpoints.scss */
+  /* line 37, ../sass/_breakpoints.scss */
   .mobileImage {
     display: block;
   }
 
-  /* line 34, ../sass/_breakpoints.scss */
+  /* line 40, ../sass/_breakpoints.scss */
   .workImageSmaller {
     width: 70vw;
   }
 
-  /* line 37, ../sass/_breakpoints.scss */
+  /* line 43, ../sass/_breakpoints.scss */
   .workImageEvenSmaller {
     width: 70vw;
   }
 }
 /* Small devices (portrait tablets and large phones, 601px and up) */
 @media only screen and (min-width: 601px) {
-  /* line 44, ../sass/_breakpoints.scss */
+  /* line 50, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 2em;
   }
 
-  /* line 47, ../sass/_breakpoints.scss */
+  /* line 53, ../sass/_breakpoints.scss */
   .resume {
     position: fixed;
     bottom: 3%;
   }
 
-  /* line 51, ../sass/_breakpoints.scss */
+  /* line 57, ../sass/_breakpoints.scss */
   .fullImage {
     display: block;
   }
 
-  /* line 54, ../sass/_breakpoints.scss */
+  /* line 60, ../sass/_breakpoints.scss */
   .mobileImage {
     display: none;
+  }
+
+  /* line 63, ../sass/_breakpoints.scss */
+  .about {
+    right: 0;
+    position: fixed;
+    bottom: 3%;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  /* line 61, ../sass/_breakpoints.scss */
+  /* line 72, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 2em;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  /* line 68, ../sass/_breakpoints.scss */
+  /* line 79, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 3em;
   }
 
-  /* line 71, ../sass/_breakpoints.scss */
+  /* line 82, ../sass/_breakpoints.scss */
   .fullImage {
     display: block;
   }
 
-  /* line 74, ../sass/_breakpoints.scss */
+  /* line 85, ../sass/_breakpoints.scss */
   .mobileImage {
     display: none;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /* line 81, ../sass/_breakpoints.scss */
+  /* line 92, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 3em;
   }
 
-  /* line 84, ../sass/_breakpoints.scss */
+  /* line 95, ../sass/_breakpoints.scss */
   .fullImage {
     display: block;
   }
 
-  /* line 87, ../sass/_breakpoints.scss */
+  /* line 98, ../sass/_breakpoints.scss */
   .mobileImage {
     display: none;
   }
