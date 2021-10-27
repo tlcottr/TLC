@@ -1,0 +1,34 @@
+.adaptiveThree {
+    background-color: #763b67;
+    transition: 500ms ease-in-out;
+    .threeHead {
+      color: #ffffff;
+      transition: 500ms ease-in-out;
+    }
+    .threeSubhead {
+      color: #ab5d98;
+      transition: 500ms ease-in-out;
+    }
+    .switch input[type=checkbox]:checked + label {
+      background: #ab5d98;
+    }
+    .light {
+      color:#ab5d98;
+    }
+    .home {
+      color: white;
+    }
+    #fp-nav ul li a span,
+  .fp-slidesNav ul li a span {
+      background-color: #ab5d98;
+    }
+  }
+  .threeHead {
+    color: #763b67;
+    transition: 500ms ease-in-out;
+  }
+  .threeSubhead {
+    color: #000000;
+    transition: 500ms ease-in-out;
+  }
+  

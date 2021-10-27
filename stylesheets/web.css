@@ -863,6 +863,51 @@ body {
   transition: 500ms ease-in-out;
 }
 
+/* line 1, ../sass/_three.scss */
+.adaptiveThree {
+  background-color: #763b67;
+  transition: 500ms ease-in-out;
+}
+/* line 4, ../sass/_three.scss */
+.adaptiveThree .threeHead {
+  color: #ffffff;
+  transition: 500ms ease-in-out;
+}
+/* line 8, ../sass/_three.scss */
+.adaptiveThree .threeSubhead {
+  color: #ab5d98;
+  transition: 500ms ease-in-out;
+}
+/* line 12, ../sass/_three.scss */
+.adaptiveThree .switch input[type=checkbox]:checked + label {
+  background: #ab5d98;
+}
+/* line 15, ../sass/_three.scss */
+.adaptiveThree .light {
+  color: #ab5d98;
+}
+/* line 18, ../sass/_three.scss */
+.adaptiveThree .home {
+  color: white;
+}
+/* line 21, ../sass/_three.scss */
+.adaptiveThree #fp-nav ul li a span,
+.adaptiveThree .fp-slidesNav ul li a span {
+  background-color: #ab5d98;
+}
+
+/* line 26, ../sass/_three.scss */
+.threeHead {
+  color: #763b67;
+  transition: 500ms ease-in-out;
+}
+
+/* line 30, ../sass/_three.scss */
+.threeSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+
 /* line 1, ../sass/_santamargherita.scss */
 .adaptiveSanta {
   background-color: #99042F;
