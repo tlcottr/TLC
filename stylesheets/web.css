@@ -356,9 +356,9 @@ video {
   text-decoration: none;
   display: inline-block;
   border-radius: 50px;
-  padding-left: 60px;
-  padding-right: 60px;
-  font-size: .7em;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: .5em;
   transition: 500ms ease-in-out;
 }
 
@@ -1158,75 +1158,85 @@ body {
   .workImageEvenSmaller {
     width: 70vw;
   }
+
+  /* line 49, ../sass/_breakpoints.scss */
+  .bubble {
+    font-size: .7em;
+  }
 }
 /* Small devices (portrait tablets and large phones, 601px and up) */
 @media only screen and (min-width: 601px) {
-  /* line 53, ../sass/_breakpoints.scss */
+  /* line 56, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 2em;
   }
 
-  /* line 56, ../sass/_breakpoints.scss */
+  /* line 59, ../sass/_breakpoints.scss */
   .resume {
     position: fixed;
     bottom: 3%;
   }
 
-  /* line 60, ../sass/_breakpoints.scss */
+  /* line 63, ../sass/_breakpoints.scss */
   .fullImage {
     display: block;
   }
 
-  /* line 63, ../sass/_breakpoints.scss */
+  /* line 66, ../sass/_breakpoints.scss */
   .mobileImage {
     display: none;
   }
 
-  /* line 66, ../sass/_breakpoints.scss */
+  /* line 69, ../sass/_breakpoints.scss */
   .about {
     position: fixed;
     bottom: 3%;
     text-align: right;
     right: 0;
   }
+
+  /* line 75, ../sass/_breakpoints.scss */
+  .bubble {
+    font-size: .5em;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  /* line 76, ../sass/_breakpoints.scss */
+  /* line 82, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 2em;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  /* line 83, ../sass/_breakpoints.scss */
+  /* line 89, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 3em;
   }
 
-  /* line 86, ../sass/_breakpoints.scss */
+  /* line 92, ../sass/_breakpoints.scss */
   .fullImage {
     display: block;
   }
 
-  /* line 89, ../sass/_breakpoints.scss */
+  /* line 95, ../sass/_breakpoints.scss */
   .mobileImage {
     display: none;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /* line 96, ../sass/_breakpoints.scss */
+  /* line 102, ../sass/_breakpoints.scss */
   .megaType {
     font-size: 3em;
   }
 
-  /* line 99, ../sass/_breakpoints.scss */
+  /* line 105, ../sass/_breakpoints.scss */
   .fullImage {
     display: block;
   }
 
-  /* line 102, ../sass/_breakpoints.scss */
+  /* line 108, ../sass/_breakpoints.scss */
   .mobileImage {
     display: none;
   }

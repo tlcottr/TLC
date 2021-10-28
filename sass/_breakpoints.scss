@@ -46,6 +46,9 @@
   .workImageEvenSmaller {
     width: 70vw;
   }
+  .bubble {
+    font-size: .7em;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 601px and up) */
@@ -68,6 +71,9 @@
     bottom: 3%;
     text-align: right;
     right: 0;
+  }
+  .bubble {
+    font-size: .5em;
   }
 }
 
