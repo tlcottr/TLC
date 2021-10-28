@@ -351,14 +351,14 @@ video {
   background-color: black;
   border: none;
   color: white;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-size: .5em;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: .7em;
 }
 
 /* line 1, ../sass/_body.scss */
