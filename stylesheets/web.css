@@ -1095,6 +1095,60 @@ body {
   transition: 500ms ease-in-out;
 }
 
+/* line 1, ../sass/_ong.scss */
+.inspireS1 {
+  background: url(/img/sm.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 8, ../sass/_ong.scss */
+.adaptiveONG {
+  background-color: #00807e;
+  transition: 500ms ease-in-out;
+}
+/* line 11, ../sass/_ong.scss */
+.adaptiveONG .ongHead {
+  color: #ffffff;
+  transition: 500ms ease-in-out;
+}
+/* line 15, ../sass/_ong.scss */
+.adaptiveONG .ongSubhead {
+  color: #efefef;
+  transition: 500ms ease-in-out;
+}
+/* line 19, ../sass/_ong.scss */
+.adaptiveONG .switch input[type=checkbox]:checked + label {
+  background: #5ad8ff;
+}
+/* line 22, ../sass/_ong.scss */
+.adaptiveONG .light {
+  color: #5ad8ff;
+}
+/* line 25, ../sass/_ong.scss */
+.adaptiveONG .home {
+  color: white;
+}
+/* line 28, ../sass/_ong.scss */
+.adaptiveONG #fp-nav ul li a span,
+.adaptiveONG .fp-slidesNav ul li a span {
+  background-color: #5ad8ff;
+}
+
+/* line 33, ../sass/_ong.scss */
+.ongHead {
+  color: #00807e;
+  transition: 500ms ease-in-out;
+}
+
+/* line 37, ../sass/_ong.scss */
+.ongSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* line 3, ../sass/_breakpoints.scss */

@@ -1,0 +1,40 @@
+.inspireS1 {
+  background: url(/img/sm.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.adaptiveONG {
+  background-color: #00807e;
+  transition: 500ms ease-in-out;
+  .ongHead {
+    color: #ffffff;
+    transition: 500ms ease-in-out;
+  }
+  .ongSubhead {
+    color: #efefef;
+    transition: 500ms ease-in-out;
+  }
+  .switch input[type=checkbox]:checked + label {
+    background: #5ad8ff;
+  }
+  .light {
+    color:#5ad8ff;
+  }
+  .home {
+    color: white;
+  }
+  #fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background-color: #5ad8ff;
+  }
+}
+.ongHead {
+  color: #00807e;
+  transition: 500ms ease-in-out;
+}
+.ongSubhead {
+  color: #000000;
+  transition: 500ms ease-in-out;
+}
