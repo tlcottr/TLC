@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>ONG | TLC</title>
+
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="stylesheets/web.css">
+
+    <!-- Fonts -->
+
+    <!-- Fontawesome Icon fotns -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="/img/TLC_fav.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/af692b5953.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Js -->
+    <script src="js/modernizr.js"></script>
+    <script>
+        var nav = false;
+        function openTitle(){
+            document.getElementById('title').classList.toggle("show");
+            document.getElementById('body').classList.add("adaptiveONG");
+            nav = true;
+        }
+        function closeTitle(){
+            document.getElementById('title').classList.toggle("show");
+            document.getElementById('body').classList.remove("adaptiveONG");
+            nav = false;
+        }
+        function toggleTitle(){
+          nav ? closeTitle() : openTitle();
+        }
+        </script>
+    </head>
+    <body id="body">
+      <div class="header stuck" id="header">
+        <div class="headerTop">
+          <div class="col h1 bold fadeIn"><a href="/" class="home">Taylor Cottrell </a><span class="light fade show" id="title">knows a bit more about Parkinson's.</span></div>
+          <div class="col h1 fadeIn switch right"><input type="checkbox" id="toggleAll" onclick="toggleTitle()"/><label for="toggleAll"></label></div>
+    </div></div>
+  <div id ="fullPage" class="fullPage fadeIn">
+    <div class= "section s1">
+      <div class="caseText megaType">
+        <span class="ongHead">Humanizing the MOA/MOD approach for Parkinson's.</span><br>
+        <span class="light ongSubhead">
+Concept and art direction for a refresh to the DTC MOA/MOD style championing Ongentys.</span>
+      </div>
+      <div class="caseInfo">
+        <span class="h4 light gray">Neurocrine / Area23 / Carlos Benitez, Edgar Casillas, Diego James, Dan Stein, Taylor Cottrell</span>
+      </div>
+  </div>
+  <div class= "section s1">
+    <div class="caseText megaType">
+      <span class="ongHead">About.</span><br>
+      <span class="light ongSubhead">Inspired by Pixar-style animation, we sought to bring entertainment and education to MOA/MOD spots for Ongentys.</span>
+    </div>
+  </div>
+<div class= "section s2">
+  <video muted autoplay controls>
+  <source src="../img/ONG.mp4" type="video/mp4">
+  </video>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+<script>
+new fullpage('#fullpage', {
+    licenseKey: '5CC976AE-2BA44BD9-AD76D191-06F35AD6'
+})
+new fullpage('#fullPage', {
+  autoScrolling: false,
+  scrollingSpeed: 4000,
+  dragAndMove: true,
+  fadingEffect: true,
+  navigation: true,
+  lazyLoading: true,
+  loopBottom: true,
+  scrollOverflow:true,
+  scrollBar: false,
+  scrollHorizontally: true
+});
+</script>
+</body>
+
+<header>
+</header><!-- End Header -->
+
+
+ <!-- start footer -->
+<footer>
+</footer> <!-- end footer -->
+
+
+<!-- jQuery-->
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+</body>
+</html>
