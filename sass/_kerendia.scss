@@ -1,33 +1,33 @@
 .adaptiveKerendia {
   background-color: #E82448;
   transition: 500ms ease-in-out;
-  .coffeeHead {
+  .kerendiaHead {
     color: #ffffff;
     transition: 500ms ease-in-out;
   }
-  .coffeeSubhead {
+  .kerendiaSubhead {
     color: #000000;
     transition: 500ms ease-in-out;
   }
   .switch input[type=checkbox]:checked + label {
-    background: #a78742;
+    background: #E82448;
   }
   .light {
-    color:#a78742;
+    color:#E82448;
   }
   .home {
-    color: white;
+    color: #E82448;
   }
   #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
-    background-color: #a78742;
+    background-color: #E82448;
   }
 }
-.coffeeHead {
-  color: #8a6517;
+.kerendiaHead {
+  color: #E82448;
   transition: 500ms ease-in-out;
 }
-.coffeeSubhead {
+.kerendiaSubhead {
   color: #000000;
   transition: 500ms ease-in-out;
 }
