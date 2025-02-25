@@ -1,0 +1,42 @@
+.adaptiveBlenrep {
+    background-color: #24e876;
+    transition: 500ms ease-in-out;
+  }
+  
+  .adaptiveBlenrep .blenrepHead {
+    color: #ffffff;
+    transition: 500ms ease-in-out;
+  }
+  
+  .adaptiveBlenrep .blenrepSubhead {
+    color: #000000;
+    transition: 500ms ease-in-out;
+  }
+  
+  .adaptiveBlenrep .switch input[type=checkbox]:checked + label {
+    background: #a2ffc9;
+  }
+  
+  .adaptiveBlenrep .light {
+    color: #a2ffc9;
+  }
+  
+  .adaptiveBlenrep .home {
+    color: #ffffff;
+  }
+  
+  .adaptiveBlenrep #fp-nav ul li a span,
+  .adaptiveBlenrepa .fp-slidesNav ul li a span {
+    background-color: #a2ffc9;
+  }
+  
+  .blenrepHead {
+    color: #24e876;
+    transition: 500ms ease-in-out;
+  }
+  
+  .blenrepSubhead {
+    color: #000000;
+    transition: 500ms ease-in-out;
+  }
+  
